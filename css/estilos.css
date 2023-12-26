@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Martel+Sans:wght@600;900&display=swap');
+
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html {
+    background-color: #4C7B9D;
+    font-size: 16px;
+}
+
+body h2, p {
+    background-color: #ACDADC;
+    margin: 0 10%;
+    /* border-radius: 3rem; */
+    /* box-shadow: 0.25rem 0.25rem 0.5rem black;  */
+}
+
+body h1 {
+    background-color: #DF3448;
+    color: #F1FAEE;
+    font-family: 'Lobster', cursive;
+    font-size: 3.25rem;
+    margin: 0 0 3rem 0;
+    padding: 0.8rem 0;
+    text-align: center;
+    text-shadow: 2px 2px 4px black;
+}
+h2  {
+    color: #DF3448;
+}
