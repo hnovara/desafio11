@@ -12,16 +12,14 @@ html {
     background-position: bottom;
     background-attachment: fixed;
     color: #213557;
+    padding-bottom: 24rem;
 }
 body {
     background-color: #ACDADC;
     margin: 8.5rem 10%;
     border-radius: 1rem;
     box-shadow: inset 0.25rem 0.25rem 0.5rem rgb(104, 104, 104); 
-    padding: 2.5rem 2.5rem;
-    background-image: url(../css/img/gato.png);
-    background-repeat: no-repeat;
-    background-position: bottom;
+    padding: 2.5rem 2.5rem 10rem 2rem;
 }
 h1  {
     background-color: #DF3448;
@@ -30,12 +28,13 @@ h1  {
     font-size: 2.8rem;
     margin: 0;
     padding: 1rem 0;
-    position: absolute;
+    position: fixed;
     text-align: center;
     text-shadow: 2px 2px 4px black;
     top: 0; 
     left: 0; 
     width: 100%; 
+    z-index: 1;
 }
 h2  {
     color: #DF3448;
@@ -85,4 +84,12 @@ p:nth-of-type(5)::after{
 }
 p:not(:first-of-type) {
     text-align: left;
+}
+p:nth-of-type(10)::after{
+    content: url(../css/img/gato.png);
+    display: flex;
+    justify-content: center;
+    margin-top: 5.5rem;
+    position: absolute;
+    width: 68%;
 }
